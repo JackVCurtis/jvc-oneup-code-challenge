@@ -4,8 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "build": "cd app && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "form-urlencoded": "^4.2.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0"
+  }
 }

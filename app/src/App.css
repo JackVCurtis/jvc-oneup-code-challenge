@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.App-login {
+  width: 80%;
+  margin: auto;
+}
+.App-login-button {
+  cursor: pointer;
+  color: white;
+  background-color: steelblue;
+  width: 100px;
+  padding: 12px;
+  margin: 24px auto;
+}
+.App-list {
+  list-style-type: none;
+}
